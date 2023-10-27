@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilheteria Museu</title>
+    <link rel="shortcut icon" href="emojicoriazul-icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>MUSEU MULTITEMÁTICO</h1>
+        <p>A mistura de tecnologia e história</p>
+    </header>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="atracoes.html">Atrações</a>
+        <a href="museu.html">Museu</a>
+        <a href="bilheteria.html">Bilheteria</a>
+        <a href="fale.html">Fale Conosco</a>
+    </nav>
+    <main>
+            <h1>BILHETERIA</h1>
+            <form autocomplete="off" action="cadastro.php" method="post">
+                <p><label for="inome">Nome:</label>
+                    <input type="text" name="nome" id="inome"></p>
+                <p><label for="isobrenome">Sobrenome:</label>
+                    <input type="text" name="sobrenome" id="isobrenome"></p>
+                <p><label for="idade">Idade:</label>
+                   <input type="text" name="idade" id="idade"></p>
+                <h2>Escolha o tema que deseja visitar:</h2>
+                <ul>
+                    <li>100 anos da semana da Arte moderna</li>
+                    <li>150 anos de Santos Dumont</li>
+                    <li>Jogos Olímpicos de Paris 2024</li>
+                    <li>Evolução da Moeda Brasileira</li>
+                </ul>
+                <p><label for="itema">Tema:</label>
+                   <input type="text" name="tema" id="itema" size="25"></p>
+                   <h2>Selecione o período desejado:</h2>
+                   <ul>
+                       <li>Manhã - 9:00</li>
+                       <li>Tarde - 15:00</li>
+                       <li>Noite - 18:00</li>
+                   </ul>
+                   <p><label for="ihora">Período:</label>
+                   <input type="text" name="hora" id="ihora"></p>
+                   <h2>Selecione o tipo de entrada:</h2>
+                   <ul>
+                       <li>Inteira</li>
+                       <li>Meia - Estudante</li>
+                       <li>Meia - PCD</li>
+                       <li>Meia - Idoso</li>
+                       <li>Meia - Professor de Rede Pública</li>
+                       <li>Isenção</li>
+                   </ul>
+                   <p><label for="ientrada">Entrada:</label>
+                      <input type="text" name="entrada" id="ientrada"></p>
+                   <h2>Selecione o método de pagamento</h2>
+                   <ul>
+                       <li>PIX</li>
+                       <li>Cartão de crédito</li>
+                       <li>Cartão de débito</li>
+                       <li>Boleto</li>
+                   </ul>
+                   <p><label for="ipgamento">Pagamento:</label>
+                   <input type="text" name="pagamento" id="ipagamento"></p>
+                <div><a href="ingresso.html">ENVIAR</a></div>
+            </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,108 @@
+@charset "UTF";
+
+@font-face {
+    font-family: 'Natal';
+    src: url(fosts/Christmas\ Bell\ -\ Personal\ Use.otf);
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #0a2e7c;
+}
+
+header {
+background-color: #1571ea;
+background-image: linear-gradient(to bottom, #1571ea, #0c4c9f);
+text-align: center;
+padding-top: 20px;
+min-height: 50px;
+}
+
+header > h1 {
+font-family: 'Natal';
+color: white;
+font-size: 2.8em;
+margin-bottom: 15px;
+}
+
+header > p {
+font-family: 'Natal';
+font-size: 1.5em;
+padding-right: 10px;
+padding-left: 10px;
+padding-bottom: 10px;
+margin: auto;
+text-align: center;
+color: white
+}
+
+nav {
+    background-color: #0c4c9f;
+    padding: 20px;
+}
+
+nav a {
+    font-family: 'Natal';
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition-duration: 0.5s;
+    padding: 10px;
+    color: white
+}
+
+nav a:hover {
+    background-color: lightblue;
+    color: #0a2e7c;
+}
+
+main {
+min-width: 300px;
+max-width: 1000px;
+margin: auto;
+margin-bottom: 20px;
+padding: 30px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+background-color: white
+}
+
+main h1 {
+    font-family: 'Natal';
+    text-align: center;
+    padding: 10px;
+}
+
+main h2 {
+    font-family: 'Natal';
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+p {
+    text-align: left;
+    padding: 8px;
+}
+
+ul {
+    padding: 8px;
+}
+
+div a {
+    font-family: 'Natal';
+    font-size: 1.2em;
+    display: block;
+    background-color: rgb(37, 147, 244);
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
